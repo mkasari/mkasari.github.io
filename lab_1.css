@@ -1,31 +1,7 @@
 
-  #p{
-    width: 300px;
-    border: 10px solid black;
-    padding: 50px;
-    margin: 20px;
-    float: left; 
-  }
-  #p.polaroid {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
   
-  img {width: 100%}
-  
-  #p.container {
-    text-align: center;
-    padding: 10px 20px;
-  }
-  #text { 
-    width: 225px;
-    border: 10px solid black;
-    padding: 50px;
-    margin: 20px;
-    float: left;
 
-  }
+  
 
   h1, h2, h3 {
     font-family: 'Josefin Sans', sans-serif;
@@ -33,15 +9,8 @@
   h3{
     float: inherit; 
 }
-  #text2{
-    width: 300px;
-    border: 10px solid black;
-    padding: 50px;
-    margin: 20px;
-    float: left;
-  }
-  table{
-    
-      border: 5px solid black;
+  
+  table {
+    font-size: 18px; 
   }
  
