@@ -1,14 +1,10 @@
 body{
     background-color: black;
-    color: lightblue;
-
-}
-
-h1, h3 {
     color: white;
+
 }
 
-h2 {
+h1 {
     font-family:'Nanum Myeongjo', serif;
 
 }
@@ -29,10 +25,11 @@ a:link {
 }
 
 div {
-    width: 100px;
-    border: 10px solid green;
+    width: 80px;
+    border: 1px solid white;
     padding: 50px;
     margin: 20px;
+    font-size: 20px; 
   }
 
 
