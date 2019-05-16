@@ -1,0 +1,34 @@
+
+  #p{
+    width: 300px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 20px;
+    float: right; 
+  }
+
+  #text { 
+    width: 225px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 20px;
+    float: left;
+
+  }
+
+  h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  #text2{
+    width: 300px;
+    border: 10px solid black;
+    padding: 50px;
+    margin: 20px;
+    float: right;
+  }
+  table{
+    
+      border: 5px solid black;
+  }
+ 
