@@ -90,6 +90,7 @@ text-align: left;
  }
  #nav {
     font-size: 30px;
+    text-align: center;
  }
 
  
@@ -103,7 +104,7 @@ text-align: left;
    transform: translate(-50%, -50%);
  }
 
-#cats, #tennis, #photography, #modeling {
+#me, #tennis, #photography, #modeling {
    width: 600px;
     border: 5px solid black;
     padding: 35px;
@@ -114,7 +115,7 @@ text-align: left;
     color: black;
 }
 
- #cats, #photography {
+ #me, #photography {
     float: left;
  }
 
