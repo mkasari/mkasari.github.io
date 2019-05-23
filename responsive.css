@@ -1,0 +1,109 @@
+*{
+   box-sizing: border-box;
+}
+
+body {
+   background-color: #FBEEFF;
+   background-repeat: no-repeat;
+}
+
+.grid-container {
+display: grid;
+grid-gap: 1px 1px;
+}
+
+ #header {
+   font-size: 70px;
+   font-family: 'Nanum Myeongjo', serif;
+   margin-left: 0%;
+   margin-top: 0%;
+}
+
+ ul {
+   text-align: right;
+   list-style: none;
+   margin-top: -290px;
+   font-family:'Nanum Myeongjo', serif;
+}
+
+ul li {
+   display: inline-block;
+   padding-left: 10px;
+}
+
+ul li:last-child{
+   padding-right: 10px;
+}
+
+a:visited {
+   color: black;
+}
+a:link {
+   color: black;
+}
+ 
+ #nav {
+    font-size: 30px;
+    text-align: center;
+ }
+
+
+ #me, #tennis {
+   width: 100%;
+    margin: 20px;
+    font-size: 20px; 
+    text-align: left;
+    color: black;
+}
+
+@media only screen and (min-width: 728px) {
+   #me, #tennis {
+    width: 50%;
+    clear: none;
+   }
+}
+
+img {
+   width: 100%; 
+   height: auto;
+}
+
+ #me, #photography {
+    float: left;
+ }
+
+ #tennis, #modeling {
+    float: right;
+ }
+ .grid-container {
+   display: inline-grid;
+
+ }
+ 
+
+   /* For desktop: */
+   .grid-item1 {width: 50%;
+   background-color: red;}
+   .grid-item2 {width: 50%;
+   background-color: orange;}
+   .grid-item3 {width: 50%;
+   background-color: yellow;}
+   .grid-item4 {width: 50%;
+   background-color: green;}
+   .grid-item5 {width: 50%;
+      background-color: blue;}
+   .grid-item6 {width: 50%;
+      background-color: purple;}
+   .grid-item7 {width: 50%;
+      background-color: grey;}
+   .grid-item8 {width: 50%;
+      background-color: purple;}
+   .grid-item9 {width: 50%;
+      background-color: white;}
+   .grid-item10 {width: 50%;
+      background-color: purple;}
+   .grid-item11 {width: 50%;
+      background-color: white;}
+   .grid-item12 {width: 50%;
+      background-color: purple;}
+ 
