@@ -1,0 +1,22 @@
+.bg-1 { 
+    background-color: darkred; /* Green */
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .bg-2 {
+      background-color: darkorange;
+      color: #ffffff;
+      text-align: center; 
+  }
+
+  .bg-3 {
+      background-color: hotpink;
+      color: #ffffff;
+      text-align: center;
+  }
+
+  .container-fluid {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }

@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+i {
+    color: green;
+}
+
+i {
+    color: red;
+}
+
+b{
+    color: pink;
+}
+
+p {
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px 1px 3px #666666;
+}
+
+p.two{
+    background-color: yellow;
+    color: #666666;
+    text-shadow: 1px 1px 3px #666666;
+
+}
+
+a:link {
+    color: deeppink;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover{
+    color: deeppink;
+    text-decoration: underline;
+}
+
+a:active{
+    color: darkcyan;
+}
+
