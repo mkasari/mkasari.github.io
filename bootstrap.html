@@ -1,34 +1,73 @@
 
+
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
+
+  <title>bootstrap example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="bootstrap.css" type="text/css" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-
-  <title>Bootstrap Example</title>
-  <link rel="stylesheet" href="css/lightbox.min.css">
+  <link href="bootstrap.css" type="text/css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo" rel="stylesheet">
 </head>
 <body>
 
-<div class="container-fluid bg-1">
-<h3> Bootstrap Example</h3>
-<img src="graphics/newgrumpy.jpg" class="rounded-circle" alt="cat" width="250" height="150">
-<h3> Grumpy Cat </h3>
+<a class="navbar-brand" href="#">navigate</a>
 </div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav navbar-right">
+  <li><a href="#">grumpy cats</a></li>
+  <li><a href="#">happy cats</a></li>
+  <li><a href="#">sleepy cats</a></li>
+</ul>
+</div>
+</div>
+</nav>
+​
 
-<div class="container-fluid bg-2">
-        <h3>Container 2 </h3>
-        <p> Text in container 2</p>
-</div>
+<div class="container-fluid bg-1">
+    <h3> Bootstrap Example</h3>
+    <img src="graphics/newgrumpy.jpg" class="img-responsive img-circle" alt="cat" width="250" height="150" style="display: inline;">
+    <h3> Grumpy Cat </h3>
+    </div>
     
+​
+<div class="container-fluid bg-2">
+    <h3>even more grumpy cat: </h3>
+ 
+    <a href="graphics/collage.jpg" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-search"></span> click here
+      </a>
+</div>
+​
 <div class="container-fluid bg-3">
-            <h3>Container 3</h3>
-            <p>Text in container 3</p>
+    <h3>other grumpy cats </h3>
+    <div class="row">
+      <div class="col-sm-4">
+        <p>he doesn't like his outfit</p>
+        <img src="graphics/grump1.jpg" class="img-responsive" alt="grump1" style="width: 100%;">
+      </div>
+      <div class="col-sm-4">
+        <p>he just wants to go inside and sleep</p>
+        <img src="graphics/grump2.jpg" class="img-responsive" alt="grump2" style="width: 100%;">
+      </div>
+      <div class="col-sm-4"> 
+        <p>this cat just can't ever be happy</p>
+        <img src="graphics/grump3.jpg" class="img-responsive" alt="grump3" style="width: 100%; ">
+      </div>
+    </div>
 </div>      
 
+​
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+<p>website made by <a href="mkasari.github.io">mira kasari</a></p> 
+</footer>
+​
 </body>
 </html>
- 
+​

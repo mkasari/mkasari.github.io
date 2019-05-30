@@ -1,22 +1,52 @@
+*{
+  font-family:'Nanum Myeongjo', serif;
+  text-align: center;
+}
+
+body {
+ font-family: 'Nanum Myeongjo', serif;
+background-color: black;
+  color: white;
+
+}
+p {
+  font-size: 16px;
+}
+
+.margin {
+  margin-bottom: 45px;
+}
+
 .bg-1 { 
-    background-color: darkred; /* Green */
-    color: #ffffff;
-    text-align: center;
-  }
-
-  .bg-2 {
-      background-color: darkorange;
-      color: #ffffff;
-      text-align: center; 
-  }
-
-  .bg-3 {
-      background-color: hotpink;
-      color: #ffffff;
-      text-align: center;
-  }
-
-  .container-fluid {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
+  background-color: red; /* Green */
+  color: #ffffff;
+}
+.bg-2 { 
+  background-color: hotpink; /* Dark Blue */
+  color: #ffffff;
+}
+.bg-3 { 
+  background-color: orange; /* White */
+  color: white;
+}
+.bg-4 { 
+  background-color: yellow; /* Black Gray */
+  color: #fff;
+}
+.container-fluid {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 10px;
+}
+.navbar-nav  li a:hover {
+  color: black;
+  background-color: green;
+}
