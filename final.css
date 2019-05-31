@@ -1,0 +1,198 @@
+
+
+* {
+    
+    background-color: #F0E42A;
+
+}
+
+body {
+    font-family: 'Amatic SC', cursive;
+    background-color: #F0E42A;
+}
+
+.bg-1 { 
+    background-color: #F0E42A; /* Green */
+    color: #ffffff;
+    text-align: center;
+    
+ 
+
+  }
+  .center {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width:50%;
+}
+
+  .bg-2 {
+      
+      color: black;
+      text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+    padding: 5px;
+  width: 2000px;
+  margin-top: 0px;
+  margin-left: 230px;
+ 
+ 
+  }
+
+  
+
+  .bg-3 {
+      text-align: center;
+      margin-left: 220px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+
+  h1 {
+      font-size: 85px;
+      color: red;
+     
+  }
+
+  .bg-4{
+    padding: 0px;
+    font-size: 30px;
+    margin-left: 70px;
+    
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F0E42A;
+    margin-top: -150px;
+    text-align: center;
+    
+    margin-right: 185px;
+    margin-left: 40px; 
+  
+  
+  }
+
+  .active {
+      background-color: red; 
+  }
+
+  li{
+      display: inline;
+      float: left;
+      padding-left: 50px;
+      width: 300px;
+
+  }
+  
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #F0E42A;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: red;
+   width: 100%; 
+
+   color: black;
+  }
+
+
+  #links {
+    width: 128%;
+    margin-top: 150px;
+    text-align: center;
+    margin-left: 130px;
+   
+    
+
+  }
+  .panel {
+    border: 5px solid black; 
+ 
+    transition: box-shadow 0.5s;
+    width: 65%;
+    margin-bottom: 50px;
+    padding: 10px;
+    height: 450px;
+  }
+  #border {
+      border: 20px solid #DF0505; 
+  }
+  .panel:hover {
+    box-shadow: 10px 10px 10px rgba(0,0,0, .5);
+    transition: box-shadow 0.5s;
+   
+  }
+  
+  .panel-footer .btn:hover {
+    border: 1px solid black;
+    background-color: #C02626;
+    color: black;
+    opacity: 1.0;
+  }
+  
+  .panel-heading {
+    color: black;
+    font-family: 'Amatic SC', cursive;
+    padding: 1px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .panel-footer {
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #3B3A33;
+    color: white;
+    opacity: 0.5;
+  }
+
+ 
+  
+  .panel-heading h1{
+      font-size: 45px;
+  }
+
+ #secbox {
+     margin-right: 500px;
+     width: 100%;
+     margin-left: -210px;
+     color: black; 
+     font-size: 25px;
+    height: 450px;
+   
+ }
+
+ 
+
+ 
+  

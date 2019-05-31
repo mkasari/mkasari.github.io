@@ -1,0 +1,141 @@
+.active {
+    background-color: red;
+}
+    * {
+        
+        background-color: #F0E42A;
+    }
+    .bg-4{
+        padding: 0px;
+        font-family: 'Amatic SC', cursive;
+        background-color: #F0E42A;
+        font-size: 30px;
+        margin-left: 180px;
+    }
+    
+    .bg-1 { 
+        background-color: #F0E42A; /* Green */
+        color: #ffffff;
+        text-align: center;
+        margin-top: -100px;
+        
+     
+    
+      }
+#development {
+    border: 3px solid black; 
+    margin-top: -150px;
+}
+      #writing{
+        border: 3px solid black; 
+          margin-top: -250px;
+      }
+    #drawings {
+        margin-top: -180px;
+    }
+      .active {
+          background-color: red;
+      }
+    body {
+        background-color: #F0E42A;
+    }
+      .bg-2 {
+          font-family: sans-serif;
+          color: black;
+          text-align: center; 
+          background-color: #F0E42A;
+    font-size: 20px;
+        padding: 5px;
+      width: 900px;
+      
+     
+     
+      }
+      .img {
+          margin-left:-100px;
+      }
+    
+     
+ 
+      
+    
+      
+      
+    
+      .container-fluid {
+        padding-top: 100px;
+        padding-bottom: 100px;
+      }
+    
+      h1 {
+          font-size: 70px;
+          color: red;
+          font-family: 'Amatic SC', cursive;
+         
+      }
+    
+    
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #F0E42A;
+        margin-top: -150px;
+        text-align: center;
+       
+        margin-right: 185px;
+        margin-left: 40px; 
+      
+      
+      }
+    
+      li{
+          display: inline;
+          float: left;
+          padding-left: 50px;
+          width: 300px;
+    
+      }
+      
+      
+      a {
+        display: block;
+        padding: 8px;
+        background-color: #F0E42A;
+      }
+      li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: red;
+       width: 100%; 
+    
+       color: black;
+      }
+    
+    
+      #links {
+        width: 127%;
+        margin-top: 150px;
+        margin-left: 0px;
+        
+    
+      }
+      
+      
+     
+     .center {
+        display: block; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width:100%;
+
+    }
+
+    
