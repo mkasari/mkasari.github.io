@@ -39,6 +39,7 @@ font-size: 30px;
  
  
   }
+  
 #characters, #cast, #bob, #linda, #tina, #gene, #louise {
     border: 3px solid black;
     background-color: #F0E42A;
@@ -229,3 +230,7 @@ font-size: 30px;
             width:50%;
         }
 
+#backtotop {
+    color: black;
+    text-align: center;
+}
